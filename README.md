@@ -36,6 +36,15 @@ Our dataset encompasses:
 This extensive dataset provides valuable insights into the accessibility perceptions of various disability groups regarding tourism services.
 
 ## Data Processing
+The data processing module, located in `./data_filtering/`, is responsible for extracting disability-related reviews from a large corpus of general business reviews. This critical step ensures the dataset's relevance to accessibility research.
+
+Key features:
+
+1. Keyword-based Filtering: Implements a robust algorithm to identify reviews containing disability-related terms and phrases.
+
+2. One-class SVM Model: Utilizes machine learning to detect subtle patterns indicative of disability-related content, even in the absence of explicit keywords.
+
+This module effectively addresses the challenges of  identifying nuanced disability-related content, providing a solid foundation for subsequent analysis.
 
 ## Quadruple Extraction
 ### Sentires for Quadruple Extraction
