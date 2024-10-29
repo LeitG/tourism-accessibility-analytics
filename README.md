@@ -1,1 +1,2 @@
-# tourism-accessibility-analytics
+<h1 align="center"> Improving Tourism Accessibility with Data Analytics </h1>
+We're developing a travel accessibility profiling system that aims to enhance tourism services for people with disabilities. By analyzing social media data and online reviews, we're identifying key accessibility attributes and sentiments across different disability groups. Our goal is to create accessibility-aware location recommendations using advanced data science techniques, including natural language processing and sentiment analysis. This project not only contributes to more inclusive tourism but also provides valuable hands-on experience in cutting-edge data analytics and research methodologies
