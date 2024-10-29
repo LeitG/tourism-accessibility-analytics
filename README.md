@@ -17,6 +17,23 @@ We're developing a travel accessibility profiling system that aims to enhance to
 - [Evaluation of the Recommendation System](#evaluation-of-the-recommendation-system)
 
 ## Data Collection
+The data collection process is implemented through a specialized web crawler located in the `./web_crawler/` directory. This crawler is designed to extract hotel reviews from TripAdvisor, focusing on accessibility-related information across Australia.
+
+To run the crawler:
+
+```
+cd ./web_crawler/
+python scraper.py
+```
+
+The crawler architecture is illustrated in `./img/crawler.png`.
+
+Our dataset encompasses:
+- 880,571 reviews
+- 627,810 unique users
+- 2,013 hotels
+
+This extensive dataset provides valuable insights into the accessibility perceptions of various disability groups regarding tourism services.
 
 ## Data Processing
 
