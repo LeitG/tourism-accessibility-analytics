@@ -47,8 +47,26 @@ Key features:
 This module effectively addresses the challenges of  identifying nuanced disability-related content, providing a solid foundation for subsequent analysis.
 
 ## Quadruple Extraction
-### Sentires for Quadruple Extraction
-### Large Language Models for Quadruple Extraction
+
+The Quadruple Extraction module implements advanced sentiment analysis techniques to extract structured information from unstructured text. It generates quadruples in the format (feature, opinion, sentence, score), enabling detailed analysis of user reviews.
+
+### Sentires Integration
+
+We incorporate [Sentires](https://github.com/evison/Sentires), a toolkit for phrase-level sentiment analysis, to perform quadruple extraction. Sentires employs a six-step lexicon-building process, including preprocessing, POS tagging, feature-opinion pair extraction, and sentiment scoring.
+
+```
+Quadruple = Extract(Feature, Opinion, Sentence, Sentiment)
+```
+
+### LLM-based Extraction
+
+To enhance precision, especially for disability-related hotel reviews, we leverage Large Language Models (LLMs). Our approach uses a prompt-based methodology to instruct LLMs to extract quadruples in the desired format:
+
+```
+"Extract a list of tuples from the given hotel review, where each tuple follows the format (feature, adjective, sentence, score). The score can be either -1 for negative or 1 for positive sentiment. Please do not provide any additional information."
+```
+
+This LLM integration aims to improve the accuracy and interpretability of our sentiment analysis and recommendation system.
 
 
 ## Recommendation Systems for Users with Disabilities
