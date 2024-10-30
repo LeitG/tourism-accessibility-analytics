@@ -71,6 +71,19 @@ This LLM integration aims to improve the accuracy and interpretability of our se
 
 ## Recommendation Systems for Users with Disabilities
 
+Building on our foundation of quadruple extraction from hotel reviews, particularly those that detail the experiences of individuals with disabilities, we have developed specialized recommendation systems. These systems are designed with a keen focus on explainability to ensure that the recommendations provided are not only relevant but also comprehensible to users with disabilities. This approach signifies a significant advancement in making accessibility a priority, bridging the gap between theoretical analysis and practical application for an inclusive service experience.
+
+![Performance Comparison](img/Recommend_final.png)
+
+Our recommendation models are crafted to cater to the unique needs of users with disabilities, emphasizing the importance of personalized and understandable recommendations. The models include:
+
+- **EFM (Explainable Factorization Machine):** Predicts user preferences with a high degree of accuracy, providing clear insights into the reasoning behind each recommendation.
+- **TriRank:** Utilizes a novel triadic relationship model (User-Item-Aspect) to generate recommendations that are deeply personalized and contextually relevant.
+- **MTER (Multi-Task Explainable Recommendation):** A tensor factorization approach that enhances item recommendation with explainability at its core.
+- **AARM (Attention-Based Aspect Recommendation Model):** Leverages attention mechanisms to fine-tune recommendations, ensuring that the most relevant aspects are considered.
+
+The integration of these models into our recommendation system represents a crucial step forward in our commitment to inclusivity and accessibility in service provision. By focusing on the specific needs and experiences of users with disabilities, we aim to deliver a recommendation service that is not only effective but also respectful and understanding of the diversity of user requirements.
+
 ## Interpretability of the Recommendation System
 
 ## Evaluation of the Recommendation System
