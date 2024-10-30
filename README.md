@@ -17,7 +17,7 @@ We're developing a travel accessibility profiling system that aims to enhance to
 - [Evaluation of the Recommendation System](#evaluation-of-the-recommendation-system)
 
 ## Data Collection
-The data collection process is implemented through a specialized web crawler located in the `./web_crawler/` directory. This crawler is designed to extract hotel reviews from TripAdvisor, focusing on accessibility-related information across Australia.
+The data collection process is implemented through a specialized web crawler located in the `./web_crawler/` directory. This crawler is designed to extract hotel reviews from [TripAdvisor](https://www.tripadvisor.com/), focusing on accessibility-related information across Australia.
 
 To run the crawler:
 
