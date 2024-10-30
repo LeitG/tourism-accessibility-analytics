@@ -14,7 +14,6 @@ We're developing a travel accessibility profiling system that aims to enhance to
   - [LLM-based Extraction](#LLM-based-extraction)
 - [Recommendation Systems for Users with Disabilities](#recommendation-systems-for-users-with-disabilities)
 - [Interpretability of the Recommendation System](#interpretability-of-the-recommendation-system)
-- [Evaluation of the Recommendation System](#evaluation-of-the-recommendation-system)
 
 ## Data Collection
 The data collection process is implemented through a specialized web crawler located in the `./web_crawler/` directory. This crawler is designed to extract hotel reviews from [TripAdvisor](https://www.tripadvisor.com/), focusing on accessibility-related information across Australia.
